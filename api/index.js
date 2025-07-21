@@ -1,1 +1,1 @@
-import './src/cobalt.js';
+require('./src/cobalt.js');
