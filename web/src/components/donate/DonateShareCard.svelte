@@ -36,24 +36,14 @@
         <div class="donate-card-title">{$t("donate.share.title")}</div>
     </div>
     <div id="share-card-body">
-        <button
-            id="share-qr"
-            on:click={() => {
-                expanded = !expanded;
-            }}
-            aria-label={$t(
-                `a11y.donate.share.qr.${expanded ? "collapse" : "expand"}`
-            )}
-        >
-            <CobaltQr />
-        </button>
+        <img id="share-logo" src="/icons/maskable/512.png" alt="DownloadAny Logo" style="width:132px;height:132px;border-radius:12px;background:#fff;" />
         <div id="action-buttons">
             <button
                 id="action-button-copy"
                 class="action-button"
                 on:click={async () => {
                     if (!copied) {
-                        copyURL(cobaltUrl);
+                        copyURL("download.liamding.com");
                         hapticConfirm();
                         copied = true;
                     }
@@ -66,23 +56,21 @@
                 {$t("button.copy")}
             </button>
 
-            {#if device.supports.share}
-                <button
-                    id="action-button-share"
-                    class="action-button"
-                    on:click={async () => shareURL(cobaltUrl)}
-                >
-                    <div class="action-button-icon">
-                        <IconShare2 />
-                    </div>
-                    {$t("button.share")}
-                </button>
-            {/if}
+            <button
+                id="action-button-share"
+                class="action-button"
+                on:click={async () => shareURL("download.liamding.com")}
+            >
+                <div class="action-button-icon">
+                    <IconShare2 />
+                </div>
+                {$t("button.share")}
+            </button>
 
             <button
                 id="action-button-github"
                 class="action-button"
-                on:click={async () => openURL(contacts.github)}
+                on:click={async () => openURL("https://github.com/LiamZJU/downloadanyvideos")}
             >
                 <div class="action-button-icon">
                     <IconBrandGithub />
@@ -90,25 +78,23 @@
                 {$t("button.star")}
             </button>
 
-            {#if $locale !== "ru"}
-                <button
-                    id="action-button-twitter"
-                    class="action-button"
-                    on:click={async () => openURL(contacts.twitter)}
-                >
-                    <div class="action-button-icon">
-                        <IconBrandTwitter />
-                    </div>
-                    {$t("button.follow")}
-                </button>
-            {/if}
+            <button
+                id="action-button-twitter"
+                class="action-button"
+                on:click={async () => openURL("https://x.com/ding_liam")}
+            >
+                <div class="action-button-icon">
+                    <IconBrandTwitter />
+                </div>
+                {$t("button.follow")}
+            </button>
         </div>
     </div>
     <div
         class="donate-card-subtitle share-footer-link"
         class:centered={expanded}
     >
-        cobalt.tools
+        download.liamding.com
     </div>
 </DonateCardContainer>
 

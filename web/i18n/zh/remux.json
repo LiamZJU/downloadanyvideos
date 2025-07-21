@@ -1,0 +1,8 @@
+{
+    "bullet.purpose.title": "remux 有什么用？",
+    "bullet.purpose.description": "remux 可以修复文件封装格式的问题，比如缺失的时间信息。它有助于提升在老旧软件（如 vegas pro 和 windows media player）中的兼容性。",
+    "bullet.explainer.title": "它是如何工作的？",
+    "bullet.explainer.description": "remux 会将现有的编解码数据复制到新的媒体封装中。这个过程是无损的，媒体数据不会被重新编码。",
+    "bullet.privacy.title": "本地处理",
+    "bullet.privacy.description": "DownloadAny 在本地进行 remux 操作。文件不会离开你的设备，因此处理几乎是瞬时完成的。"
+}

@@ -1,0 +1,7 @@
+{
+    "title": "拖拽或选择文件",
+    "title.multiple": "拖拽或选择多个文件",
+    "title.drop": "将文件拖到这里！",
+    "title.drop.multiple": "将文件拖到这里！",
+    "accept": "支持的格式：{{ formats }}。"
+}

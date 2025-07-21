@@ -1,0 +1,37 @@
+{
+    "banner.title": "支持一个安全\n且开放的互联网",
+    "banner.subtitle": "与朋友\n分享 DownloadAny 的乐趣",
+
+    "body.motivation": "DownloadAny 帮助创作者、教育者、视频制作者等实现他们的热爱。这是一个用爱而非盈利驱动的服务。",
+    "body.no_bullshit": "我们相信互联网不必让人害怕，因此 DownloadAny 永远不会有广告或其他恶意内容。这是我们坚守的承诺。我们所做的一切都以隐私、无障碍和易用为核心，让 DownloadAny 对所有人开放。",
+    "body.keep_going": "如果你觉得 DownloadAny 有用，请考虑支持我们的工作！你可以通过捐赠或与朋友分享 DownloadAny 来帮助我们。每一份捐赠都非常宝贵，能让我们继续开发 DownloadAny 及其他项目。",
+
+    "card.once": "一次性捐赠",
+    "card.recurring": "定期捐赠",
+    "card.custom": "自定义金额（最低 $2）",
+
+    "card.processor": "通过 {{value}}",
+
+    "card.option.5": "一杯咖啡",
+    "card.option.10": "一整个披萨",
+    "card.option.15": "一顿午餐",
+    "card.option.30": "两人午餐",
+    "card.option.50": "10公斤猫粮",
+    "card.option.100": "一年的域名",
+    "card.option.200": "空气炸锅",
+    "card.option.500": "高级办公椅",
+    "card.option.1599": "基础款 MacBook Pro",
+    "card.option.4900": "10,000 个苹果",
+    "card.option.7398": "顶配 MacBook Pro",
+    "card.option.8629": "一小块土地",
+    "card.option.9433": "豪华热水浴缸",
+
+    "card.custom.submit": "捐赠自定义金额",
+
+    "share.title": "与朋友分享 DownloadAny",
+
+    "alternative.title": "其他捐赠方式",
+
+    "alt.copy": "{{ value }}。加密钱包地址。点击复制。",
+    "alt.open": "{{ value }}。点击打开。"
+}

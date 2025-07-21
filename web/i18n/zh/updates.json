@@ -1,0 +1,4 @@
+{
+    "button.next": "前往更早的更新日志（{{ value }}）",
+    "button.previous": "前往更新的更新日志（{{ value }}）"
+}

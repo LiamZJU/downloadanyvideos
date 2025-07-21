@@ -19,28 +19,13 @@
     >
         <AboutSupport
             platform="github"
-            externalLink={contacts.github}
+            externalLink="https://github.com/LiamZJU/downloadanyvideos"
         />
 
-        {#if $locale === "ru"}
-            <AboutSupport
-                platform="telegram"
-                externalLink={contacts.telegram_ru}
-            />
-        {:else}
-            <AboutSupport
-                platform="discord"
-                externalLink={contacts.discord}
-            />
-            <AboutSupport
-                platform="twitter"
-                externalLink={contacts.twitter}
-            />
-            <AboutSupport
-                platform="bluesky"
-                externalLink={contacts.bluesky}
-            />
-        {/if}
+        <AboutSupport
+            platform="twitter"
+            externalLink="https://x.com/ding_liam"
+        />
     </div>
 
     <div class="subtext support-note">

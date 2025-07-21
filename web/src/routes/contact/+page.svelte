@@ -14,11 +14,11 @@
 
 <svelte:head>
     <title>
-        {$t("tabs.donate")} ~ {$t("general.cobalt")}
+        {$t("tabs.contact")} ~ {$t("general.cobalt")}
     </title>
     <meta
         property="og:title"
-        content="{$t("tabs.donate")} ~ {$t("general.cobalt")}"
+        content="{$t("tabs.contact")} ~ {$t("general.cobalt")}"
     />
 </svelte:head>
 
@@ -27,7 +27,6 @@
         <DonateBanner />
 
         <section id="support-options">
-            <DonateOptionsCard />
             <DonateShareCard />
         </section>
 
@@ -35,21 +34,6 @@
             <p>{$t("donate.body.motivation")}</p>
             <p>{$t("donate.body.no_bullshit")}</p>
             <p>{$t("donate.body.keep_going")}</p>
-        </section>
-
-        <section id="crypto">
-            <div id="crypto-section-header">
-                <IconDiamond />
-                <h3 id="crypto-title">{$t("donate.alternative.title")}</h3>
-            </div>
-            <div id="wallet-grid">
-                {#each Object.entries(donate.crypto) as [name, address]}
-                    <DonateAltItem type="copy" {name} {address} />
-                {/each}
-                {#each Object.entries(donate.other) as [name, address]}
-                    <DonateAltItem type="open" {name} {address} />
-                {/each}
-            </div>
         </section>
     </main>
 </div>

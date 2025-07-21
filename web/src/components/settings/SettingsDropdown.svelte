@@ -57,9 +57,6 @@
                 <option {value} selected={selectedOption === value}>
                     {items[value]}
                 </option>
-                {#if i === 0}
-                    <hr />
-                {/if}
             {/each}
         </select>
     </div>
